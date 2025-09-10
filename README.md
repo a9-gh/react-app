@@ -1,12 +1,36 @@
-# React + Vite
+# React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React application I built during my Voyage Internship project.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The app is created with React and TypeScript, using Vite for fast development. It's organized with reusable components and simple CSS styling.
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `src/` – Source code (components, styles, assets)
+- `public/` – Public files like HTML and images
+- `package.json` – Dependencies and project info
+
+## How to Run
+
+1. Clone the repository:
+   git clone https://github.com/a9-gh/react-app.git
+   cd react-app
+
+2. Install dependencies:
+   npm install
+
+3. Start the development server:
+   npm run dev
+
+4. Build for production (optional):
+   npm run build
+
+## Contributing
+
+Feel free to fork the repo and submit pull requests. Feedback and suggestions are welcome!
+
+## License
+
+This project is licensed under the MIT License.
