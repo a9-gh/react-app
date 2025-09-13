@@ -1,13 +1,18 @@
-import { useState } from 'react'
-import './index.css'
+import Header from "./components/Header"
+import About from "./components/About"
+import Skills from "./components/Skills"
+import Projects from "./components/Projects"
+import Footer from "./components/Footer"
+import "./index.css"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>  
-      <h1 className="heading">Hello World!</h1>
-      <p>This is my first React app.</p>
+    <>
+      <Header />
+      <About />
+      <Skills />
+      <Projects />
+      <Footer />
     </>
   )
 }
