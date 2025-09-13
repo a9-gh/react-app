@@ -7,3 +7,16 @@ body {
 h1 {
   color: red;
 }
+input {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+li {
+  margin: 5px 0;
+}
