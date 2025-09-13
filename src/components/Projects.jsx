@@ -1,6 +1,5 @@
 function Projects() {
-  const hasProjects = false  // change to true later
-
+  const hasProjects = true
   return (
     <section>
       <h2>Projects</h2>
